@@ -2,9 +2,7 @@ import Vue from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import "@mdi/font/css/materialdesignicons.css"; // Ensure you are using css-loader
-import Alert from "./../components/Icons/Alert.vue";
-import Chart from "./../components/Icons/Chart.vue";
-import Patients from "./../components/Icons/Patients.vue";
+import Calendar from "./../components/Icons/Calendar.vue";
 
 Vue.use(Vuetify);
 
@@ -26,14 +24,8 @@ export default new Vuetify({
   icons: {
     iconfont: "mdi",
     values: {
-      Alert: {
-        component: Alert,
-      },
-      Chart: {
-        component: Chart,
-      },
-      Patients: {
-        component: Patients,
+      Calendar: {
+        component: Calendar,
       },
     },
   },
